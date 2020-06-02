@@ -8,29 +8,21 @@ body {
   box-sizing: inherit;
 }
 
-@font-face {
-  font-family: 'violet';
-  src: url('./fonts/VioletSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  background-color: violet;
-  color: yellow;
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+  text-transform: uppercase;
   text-align: center;
-  font-size: 2em;
+  justify-content: center;
+  font-size: 2vw;
 }
 
-.my-fun-class {
-  width: 50%;
-  border: 2px solid limegreen;
-  display: block;
-  margin: auto;
+#action {
+  font-size: 2vw;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+a:link, a:visited {
+  color: white;
+  text-decoration: underline;
 }
