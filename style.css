@@ -18,11 +18,13 @@ body {
   font-size: 2vw;
 }
 
-#action {
-  font-size: 2vw;
-}
-
 a:link, a:visited {
   color: white;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 3vw
+  }
 }
