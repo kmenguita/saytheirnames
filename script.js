@@ -417,9 +417,11 @@ var arrNames = [
   "Terrill Thomas.",
   "Sylville Smith.",
   "Paul O'Neal.",
-  "Pamela Turner."
-  "Mouhamed Cisse",
-  "Regis Korchinski-Paquet"
+  "Pamela Turner.",
+  "Mouhamed Cisse.",
+  "Regis Korchinski-Paquet.",
+  "Dreasjon Reed.",
+  "Jamel Floyd."
 ];
 var x = document.getElementById("names");
   x.innerHTML = arrNames.join("</br>");
