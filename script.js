@@ -421,7 +421,14 @@ var arrNames = [
   "Mouhamed Cisse.",
   "Regis Korchinski-Paquet.",
   "Dreasjon Reed.",
-  "Jamel Floyd."
+  "Jamel Floyd.",
+  "Dion Johnson.",
+  "Tamla Horsford.",
+  "Elijah McClain.",
+  "Robert Forbes.",
+  "Kimani Gray.",
+  "Kendrec McDade.",
+  "Agatha Felix."
 ];
 var x = document.getElementById("names");
   x.innerHTML = arrNames.join("</br>");
